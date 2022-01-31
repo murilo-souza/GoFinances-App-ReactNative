@@ -17,13 +17,18 @@ import {
     TransactionList
 } from './styles'
 import { HighlightCard } from "../../components/HighlightCard";
-import { TransactionCard } from "../../components/TransactionCard";
-import { getBottomSpace } from "react-native-iphone-x-helper";
+import { TransactionCard, TransactionCardProps } from "../../components/TransactionCard";
 
+
+export interface DataListProps extends TransactionCardProps {
+    id: string;
+}
 
 export function Dashboard(){
-    const data = [
+    const data: DataListProps[] = [
         {
+            id: ' 1',
+            type: 'positive',
             title: "Dev de site",
             amount: "R$ 17.000,00",
             category:{
@@ -33,20 +38,24 @@ export function Dashboard(){
             date:"13/02/2022",
         },
         {
-            title: "Dev de site",
-            amount: "R$ 17.000,00",
+            id: '2',
+            type: 'negative',
+            title: "X-Bacon",
+            amount: "R$ 40,00",
             category:{
-                name: 'Vendas',
-                icon: 'dollar-sign',
+                name: 'Alimentação',
+                icon: 'coffee',
             },
             date:"13/02/2022",
         },
         {
-            title: "Dev de site",
-            amount: "R$ 17.000,00",
+            id: '3',
+            type: 'negative',
+            title: "ALuguel",
+            amount: "R$ 1.000,00",
             category:{
-                name: 'Vendas',
-                icon: 'dollar-sign',
+                name: 'Casa',
+                icon: 'shopping-bag',
             },
             date:"13/02/2022",
         },
@@ -77,11 +86,9 @@ export function Dashboard(){
 
                 <TransactionList
                     data={data}
+                    keyExtractor={item => item.id}
                     renderItem={({item})=><TransactionCard data={item}/>}
-                    showsVerticalScrollIndicator={false}
-                    contentContainerStyle={{
-                        paddingBottom: getBottomSpace() + 12
-                    }}
+                    
                 />
             </Transactions>
         </Container>

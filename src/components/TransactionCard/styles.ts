@@ -4,6 +4,10 @@ import theme from '../../global/styles/theme';
 import { RFValue } from 'react-native-responsive-fontsize';
 
 
+interface TransactionProps {
+    type: 'positive' | 'negative'
+}
+
 export const Container = styled.View`
     background-color: ${(theme.colors.shape)};
     border-radius: 5px;
@@ -15,13 +19,14 @@ export const Container = styled.View`
 export const Title = styled.Text`
     font-size: ${RFValue(14)}px;
     font-family: ${(theme.fonts.regular)};
-
+    color: ${(theme.colors.text_dark)}
 `;
 
-export const Amount = styled.Text`
+export const Amount = styled.Text<TransactionProps>`
     font-size: ${RFValue(20)}px;
     font-family: ${(theme.fonts.regular)};
     margin-top: 2px;
+    color: ${({type}) => type === 'positive' ? theme.colors.success : theme.colors.attention}
 `;
 export const Footer = styled.View`
     flex-direction: row;
