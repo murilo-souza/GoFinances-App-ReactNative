@@ -1,5 +1,5 @@
 import React from "react";
-import {StatusBar} from 'expo-status-bar'
+
 
 import {
     Container,
@@ -63,7 +63,6 @@ export function Dashboard(){
 
     return (
         <Container>
-            <StatusBar style='light'/>
             <Header>
                 <UserWrapper>
                     <UserInfo>
