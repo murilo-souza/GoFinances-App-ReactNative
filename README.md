@@ -12,3 +12,6 @@
   <li><a href="https://styled-components.com">Styled Componets</a></li>
   <li><a href="https://react-hook-form.com">React Hook Forms</a></li>
 </ul>
+
+<h2>Layout</h2>
+<p></p>
