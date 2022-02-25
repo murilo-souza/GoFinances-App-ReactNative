@@ -14,4 +14,4 @@
 </ul>
 
 <h2>Layout</h2>
-<p></p>
+<p>Para ver o layout completo da aplicação acesse o <a href="https://www.figma.com/file/vThJ6qrb4HDT6RfO5sJGu0/GoFinances-Ignite?node-id=0%3A1">Link</a></p>
