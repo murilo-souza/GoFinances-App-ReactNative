@@ -22,7 +22,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <StatusBar style='auto'/>
-      <CategorySelect/>
+      <Register/>
     </ThemeProvider>
   );
 }
