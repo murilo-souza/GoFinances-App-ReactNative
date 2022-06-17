@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import {Alert, Keyboard, Modal, TouchableWithoutFeedback} from 'react-native'
 import { Button } from "../../components/Forms/Button";
 import { CategorySelectButton } from "../../components/Forms/CategorySelectButton";
-import { Input } from "../../components/Forms/Input";
 import { TransactionTypeButton } from "../../components/Forms/TransactionTypeButton";
 import { CategorySelect } from "../CategorySelect";
 import { InputForm } from "../../components/Forms/InputForm";
@@ -117,8 +116,8 @@ export function Register(){
                     </Fields>
                     <Button
                         title="Enviar"
-                        onPress={handleSubmit(handleRegister)}
-                        />
+                        onPress={() => (handleSubmit(handleRegister))}
+                    />
                 </Form>
                 <Modal visible={categoryModalOpen}>
                     <CategorySelect

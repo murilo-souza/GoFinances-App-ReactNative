@@ -5,6 +5,7 @@ import {RFPercentage, RFValue} from 'react-native-responsive-fontsize'
 import {Feather} from '@expo/vector-icons'
 import {getBottomSpace, getStatusBarHeight} from 'react-native-iphone-x-helper'
 import { DataListProps } from '.';
+import { BorderlessButton } from 'react-native-gesture-handler';
 
 
 export const Container = styled.View`
@@ -65,6 +66,8 @@ export const Icon = styled(Feather)`
     font-size : ${RFValue(24)}px;
 
 `;
+
+export const LogoutButton = styled(BorderlessButton)``;
 
 export const HighlightCards = styled.ScrollView.attrs({
     horizontal: true,
