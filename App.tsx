@@ -4,7 +4,7 @@ import AppLoading from 'expo-app-loading'
 
 import {useFonts, Poppins_400Regular, Poppins_500Medium, Poppins_700Bold} from '@expo-google-fonts/poppins'
 import theme from './src/global/styles/theme'
-
+import { StatusBar } from 'expo-status-bar';
 
 import {NavigationContainer} from '@react-navigation/native'
 import { AppRoutes } from './src/routes/app.routes';
@@ -28,6 +28,7 @@ export default function App() {
     <GestureHandlerRootView style={{flex: 1}}>
       <ThemeProvider theme={theme}>
         <NavigationContainer>
+          <StatusBar translucent style='light'/>
           <AppRoutes/>
         </NavigationContainer>
       </ThemeProvider>
