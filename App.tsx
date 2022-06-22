@@ -11,6 +11,8 @@ import { AppRoutes } from './src/routes/app.routes';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import 'intl';
 import 'intl/locale-data/jsonp/pt-BR';
+import { Signin } from './src/screens/Signin';
+import { AuthProvider } from './src/hooks/auth';
 
 
 
@@ -29,7 +31,9 @@ export default function App() {
       <ThemeProvider theme={theme}>
         <NavigationContainer>
           <StatusBar translucent style='light'/>
-          <AppRoutes/>
+          <AuthProvider>
+            <Signin/>
+          </AuthProvider>
         </NavigationContainer>
       </ThemeProvider>
     </GestureHandlerRootView>
