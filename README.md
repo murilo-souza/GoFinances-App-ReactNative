@@ -11,9 +11,11 @@
   <li><a href="https://www.typescriptlang.org">Typescript</a></li>
   <li><a href="https://styled-components.com">Styled Componets</a></li>
   <li><a href="https://react-hook-form.com">React Hook Forms</a></li>
+  <li><a href="https://react-hook-form.com">Yup</a></li>
+  <li><a href="https://react-hook-form.com">AsyncStorage</a></li>
+  <li><a href="https://react-hook-form.com">Victory charts</a></li>
 </ul>
 
 <h2>Layout</h2>
 <p>Para ver o layout completo da aplicação acesse o <a href="https://www.figma.com/file/vThJ6qrb4HDT6RfO5sJGu0/GoFinances-Ignite?node-id=0%3A1">Link</a></p>
 
-<p>:construction: Em desenvolvimento :construction:</p>
