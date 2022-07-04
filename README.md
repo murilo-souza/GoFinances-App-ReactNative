@@ -5,7 +5,7 @@
 
 
 
-<h2>Tecnologias</h2>
+<h2>Technologies</h2>
 <ul>
   <li><a href="https://reactnative.dev">React Native</a></li>
   <li><a href="https://www.typescriptlang.org">Typescript</a></li>
@@ -17,5 +17,5 @@
 </ul>
 
 <h2>Layout</h2>
-<p>Para ver o layout completo da aplicação acesse o <a href="https://www.figma.com/file/vThJ6qrb4HDT6RfO5sJGu0/GoFinances-Ignite?node-id=0%3A1">Link</a></p>
+<p>To see the complete layout of the application, access the <a href="https://www.figma.com/file/vThJ6qrb4HDT6RfO5sJGu0/GoFinances-Ignite?node-id=0%3A1">Link</a></p>
 
