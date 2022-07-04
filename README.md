@@ -7,13 +7,14 @@
 
 <h2>Technologies</h2>
 <ul>
-  <li><a href="https://reactnative.dev">React Native</a></li>
-  <li><a href="https://www.typescriptlang.org">Typescript</a></li>
-  <li><a href="https://styled-components.com">Styled Componets</a></li>
-  <li><a href="https://react-hook-form.com">React Hook Forms</a></li>
   <li><a href="https://www.npmjs.com/package/yup">yup</a></li>
+  <li><a href="https://docs.expo.dev/">Expo</a></li>
+  <li><a href="https://www.typescriptlang.org">Typescript</a></li>
+  <li><a href="https://reactnative.dev">React Native</a></li>
   <li><a href="https://docs.expo.dev/versions/latest/sdk/async-storage/">AsyncStorage</a></li>
   <li><a href="https://formidable.com/open-source/victory/docs/victory-chart/">Victory charts</a></li>
+  <li><a href="https://styled-components.com">Styled Componets</a></li>
+  <li><a href="https://react-hook-form.com">React Hook Forms</a></li>
 </ul>
 
 <h2>Layout</h2>
