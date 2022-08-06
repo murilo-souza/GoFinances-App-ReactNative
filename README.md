@@ -18,6 +18,14 @@
   <li><a href="https://react-hook-form.com">React Hook Forms</a></li>
 </ul>
 
+<h2>Features</h2>
+<ul>
+  <li>Social Login with Google or Apple</li>
+  <li>Expensives and earning list</li>
+  <li>Create new transaction</li>
+  <li>Graph with percentage of amounts spent</li>
+</ul>
+
 <h2>Layout</h2>
 <p>To see the complete layout of the application, access the <a href="https://www.figma.com/file/vThJ6qrb4HDT6RfO5sJGu0/GoFinances-Ignite?node-id=0%3A1">Link</a></p>
 
