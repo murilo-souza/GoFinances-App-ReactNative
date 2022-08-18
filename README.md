@@ -5,7 +5,7 @@
 
 
 
-<h2>Technologies</h2>
+<h2>Stack</h2>
 <ul>
   <li><a href="https://www.npmjs.com/package/yup">yup</a></li>
   <li><a href="https://docs.expo.dev/">Expo</a></li>
