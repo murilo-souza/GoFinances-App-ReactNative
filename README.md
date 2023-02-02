@@ -20,9 +20,9 @@
 
 <h2>Features</h2>
 <ul>
-  <li>Social Login with Google or Apple</li>
-  <li>Expensives and earning list</li>
   <li>Create new transaction</li>
+  <li>Expensives and earning list</li>
+  <li>Social Login with Google or Apple</li>
   <li>Graph with percentage of amounts spent</li>
 </ul>
 
