@@ -29,3 +29,5 @@
 <h2>Layout</h2>
 <p>To see the complete layout of the application, access the <a href="https://www.figma.com/file/vThJ6qrb4HDT6RfO5sJGu0/GoFinances-Ignite?node-id=0%3A1">Link</a></p>
 
+<h2>Video</h2>
+<p>To watch the application video, access the <a href="https://www.linkedin.com/posts/murilo-leme-de-souza_react-reactnative-frontend-activity-6964217057743679489-F1x1?utm_source=share&utm_medium=member_desktop">Link<a/>
